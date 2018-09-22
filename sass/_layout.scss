@@ -1,4 +1,14 @@
-// Navbar Menu
+// Personalizacion de la barra de desplazamiento
+::-webkit-scrollbar-track{ background-color: #080808; }
+
+::-webkit-scrollbar{ width: 6px; }
+
+::-webkit-scrollbar-thumb{
+	background-color: $paletteBrandOne;
+	border-radius: 10px;
+}
+
+// Navbar Menu --------------------------------------------------------------------------------------------------
 .navbar-menu{
 	@include addPaddingTop(20px);
 	font-size: $fontSizeMenu;
@@ -29,7 +39,7 @@
     margin: 10px;
 }
 
-// Hero
+// Hero -----------------------------------------------------------------------------------------------------------
 .hero{
 	height: 100vh;
 	background-image: url(../assets/images/cover/chromaColorsLaptop.png);

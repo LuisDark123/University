@@ -1,0 +1,39 @@
+// Navbar Menu
+.navbar-menu{
+	@include addPaddingTop(20px);
+	font-size: $fontSizeMenu;
+	& .item-a{
+		color: $colorWhite;
+		border-bottom: 1px solid transparent;
+		transition: .5s;
+		
+	    &:hover{
+		    border-bottom: 1px solid $paletteBrandOne;
+		    transition: .5s;
+	    }
+	}
+	& a{
+		color: $colorWhite;
+	}
+}
+
+.navbar-toggler{
+	border: none !important;
+	background-color: $paletteBrandOne;
+	color: $colorWhite;
+	@include addPaddingAll(15px);
+}
+
+.nav-link {
+    padding: .3rem 1rem;
+    margin: 10px;
+}
+
+// Hero
+.hero{
+	height: 100vh;
+	background-image: url(../assets/images/cover/chromaColorsLaptop.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}

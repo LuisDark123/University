@@ -47,7 +47,6 @@
 
 // Hero -----------------------------------------------------------------------------------------------------------
 .hero{
-	height: 100vh;
 	background-image: url(../assets/images/cover/chromaColorsLaptop.png);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -57,4 +56,18 @@
     	font-size: $fontHero;
     	color: $colorWhite;
     }
+}
+
+#landing_home_section_1{
+	background-image: url(../assets/images/cover/universityPictureLong.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: $colorWhite;
+}
+
+// Section Text_Image ------------------------------------------------------------------------------------------------
+
+#landing_home_image_redefine_1{
+	height: 500px;
 }

@@ -55,7 +55,6 @@
 }
 
 .hero {
-  height: 100vh;
   background-image: url(../assets/images/cover/chromaColorsLaptop.png);
   background-repeat: no-repeat;
   background-position: center;
@@ -66,6 +65,18 @@
 .hero h1 {
   font-size: 3rem;
   color: #ffffff;
+}
+
+#landing_home_section_1 {
+  background-image: url(../assets/images/cover/universityPictureLong.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+}
+
+#landing_home_image_redefine_1 {
+  height: 500px;
 }
 
 .btn, .btnFill, .btnEmpty {
@@ -115,8 +126,16 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
-.addHeight {
+.autoHeight {
   height: 100%;
+}
+
+.height_100vh {
+  height: 100vh;
+}
+
+.limitHeightImage {
+  height: 50% !important;
 }
 
 .development {
@@ -125,7 +144,7 @@
 
 .autoSizing {
   width: 100%;
-  height: 50%;
+  height: auto;
   -o-object-fit: cover;
   object-fit: cover;
 }

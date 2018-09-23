@@ -2,3 +2,17 @@
 .addHeight{
 	height: 100%;
 }
+
+.development{
+	background-color: red;
+}
+
+.autoSizing{
+	width: 100%;
+	height: 50%;
+	object-fit: cover;
+}
+
+.textBrandColor{
+	color: $paletteBrandOne;
+}

@@ -11,6 +11,10 @@
   border-radius: 10px;
 }
 
+.addHeight {
+  height: auto;
+}
+
 .navbar-menu {
   padding-top: 20px;
   font-size: 18px;
@@ -56,6 +60,12 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  color: #636e72;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #ffffff;
 }
 
 .btn, .btnFill, .btnEmpty {
@@ -66,6 +76,7 @@
   transition: .3s;
   border: none;
   cursor: pointer;
+  border-radius: 2px;
 }
 
 .btnFill {
@@ -102,4 +113,8 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.addHeight {
+  height: 100%;
 }

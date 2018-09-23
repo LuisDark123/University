@@ -8,6 +8,12 @@
 	border-radius: 10px;
 }
 
+// Clases Globales
+.addHeight {
+  height: auto; 
+}
+
+
 // Navbar Menu --------------------------------------------------------------------------------------------------
 .navbar-menu{
 	@include addPaddingTop(20px);
@@ -46,4 +52,9 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+	color: $colorGrayNormal;
+    & h1{
+    	font-size: $fontHero;
+    	color: $colorWhite;
+    }
 }

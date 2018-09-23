@@ -32,6 +32,7 @@
 	    @include buttonFillColor;
 	    &:hover{
 	    	transform: scale(.94);
+	    	color: $colorWhite;
 	    }
     }
     &Empty{
@@ -47,6 +48,15 @@
 .deleteBorders{
 	border: hidden;
 }
+
+.addBorder{
+	border: 1px solid $colorGrayLight;
+}
+
+.addBorderBrand{
+	border: 1px solid $paletteBrandOne;
+}
+
 
 // Shadows --------------------------------------------------------------------------------
 .divShadow{

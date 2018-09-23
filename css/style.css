@@ -1,3 +1,52 @@
+.textShadow {
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+}
+
+.bgBrandOne {
+  background-color: #ed0345;
+  color: #ffffff;
+}
+
+.bgBrandTwo {
+  background-color: #ff5181;
+  color: #ffffff;
+}
+
+.bgBrandThree {
+  background-color: #ff044a;
+  color: #ffffff;
+}
+
+.bgBrandFour {
+  background-color: #7f2841;
+  color: #ffffff;
+}
+
+.bgBrandFive {
+  background-color: #cc033b;
+  color: #ffffff;
+}
+
+.textBrandOne {
+  color: #ed0345;
+}
+
+.textBrandTwo {
+  color: #ff5181;
+}
+
+.textBrandThree {
+  color: #ff044a;
+}
+
+.textBrandFour {
+  color: #7f2841;
+}
+
+.textBrandFive {
+  color: #cc033b;
+}
+
 ::-webkit-scrollbar-track {
   background-color: #080808;
 }
@@ -101,6 +150,7 @@
   -webkit-transform: scale(0.94);
   -ms-transform: scale(0.94);
   transform: scale(0.94);
+  color: #ffffff;
 }
 
 .btnEmpty {
@@ -118,6 +168,14 @@
 
 .deleteBorders {
   border: hidden;
+}
+
+.addBorder {
+  border: 1px solid #b2bec3;
+}
+
+.addBorderBrand {
+  border: 1px solid #ed0345;
 }
 
 .divShadow {
@@ -147,8 +205,4 @@
   height: auto;
   -o-object-fit: cover;
   object-fit: cover;
-}
-
-.textBrandColor {
-  color: #ed0345;
 }

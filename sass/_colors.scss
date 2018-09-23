@@ -17,5 +17,54 @@ $colorTransparent: transparent;
 
 
 // Shadows ---------------------------------------------------
-
 $colorShadow: rgba(0,0,0,.7);
+
+.textShadow{
+	text-shadow: 2px 2px 2px $colorShadow;
+}
+
+// Color Clases ----------------------------------------------
+.bgBrandOne{
+	background-color: $paletteBrandOne;
+	color: $colorWhite;
+}
+
+.bgBrandTwo{
+	background-color: $paletteBrandTwo;
+	color: $colorWhite;
+}
+
+.bgBrandThree{
+	background-color: $paletteBrandThree;
+	color: $colorWhite;
+}
+
+.bgBrandFour{
+	background-color: $paletteBrandFour;
+	color: $colorWhite;
+}
+
+.bgBrandFive{
+	background-color: $paletteBrandFive;
+	color: $colorWhite;
+}
+
+.textBrandOne{
+	color: $paletteBrandOne;
+}
+
+.textBrandTwo{
+	color: $paletteBrandTwo;
+}
+
+.textBrandThree{
+	color: $paletteBrandThree;
+}
+
+.textBrandFour{
+	color: $paletteBrandFour;
+}
+
+.textBrandFive{
+	color: $paletteBrandFive;
+}

@@ -27,6 +27,10 @@
   color: #ffffff;
 }
 
+.bgWhite {
+  background-color: #ffffff;
+}
+
 .textBrandOne {
   color: #ed0345;
 }
@@ -45,6 +49,10 @@
 
 .textBrandFive {
   color: #cc033b;
+}
+
+.textBlack {
+  color: #000000;
 }
 
 ::-webkit-scrollbar-track {
@@ -210,8 +218,20 @@
   height: 100vh;
 }
 
+.height_100 {
+  height: 100%;
+}
+
 .limitHeightImage {
   height: 50% !important;
+}
+
+.limitHeightImage_100 {
+  height: 100% !important;
+}
+
+.limitHeightImage_300px {
+  height: 400px !important;
 }
 
 .development {

@@ -49,6 +49,10 @@ $colorShadow: rgba(0,0,0,.7);
 	color: $colorWhite;
 }
 
+.bgWhite{
+	background-color: $colorWhite;
+}
+
 .textBrandOne{
 	color: $paletteBrandOne;
 }
@@ -67,4 +71,8 @@ $colorShadow: rgba(0,0,0,.7);
 
 .textBrandFive{
 	color: $paletteBrandFive;
+}
+
+.textBlack{
+	color: $colorBlack;
 }

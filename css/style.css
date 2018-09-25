@@ -31,6 +31,11 @@
   background-color: #ffffff;
 }
 
+.bgGrayHeavy {
+  background-color: #2d3436;
+  color: #ffffff;
+}
+
 .textBrandOne {
   color: #ed0345;
 }
@@ -51,8 +56,20 @@
   color: #cc033b;
 }
 
+.textWhite {
+  color: #ffffff;
+}
+
 .textBlack {
   color: #000000;
+}
+
+.linkRemove {
+  text-decoration: none !important;
+}
+
+.linkWhite {
+  color: #ffffff !important;
 }
 
 ::-webkit-scrollbar-track {

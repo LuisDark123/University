@@ -1,0 +1,95 @@
+// Personalizacion de la barra de desplazamiento
+::-webkit-scrollbar-track{ background-color: #080808; }
+
+::-webkit-scrollbar{ width: 6px; }
+
+::-webkit-scrollbar-thumb{
+	background-color: $paletteBrandOne;
+	border-radius: 10px;
+}
+
+// Clases Globales
+.addHeight {
+  height: auto; 
+}
+
+
+// Navbar Menu --------------------------------------------------------------------------------------------------
+.navbar-menu{
+	@include addPaddingTop(20px);
+	font-size: $fontSizeMenu;
+	& .item-a{
+		color: $colorWhite;
+		border-bottom: 1px solid transparent;
+		transition: .5s;
+		
+	    &:hover{
+		    border-bottom: 1px solid $paletteBrandOne;
+		    transition: .5s;
+	    }
+	}
+	& a{
+		color: $colorWhite;
+	}
+}
+
+.navbar-toggler{
+	border: none !important;
+	background-color: $paletteBrandOne;
+	color: $colorWhite;
+	@include addPaddingAll(15px);
+}
+
+.nav-link {
+    padding: .3rem 1rem;
+    margin: 10px;
+}
+
+// Hero -----------------------------------------------------------------------------------------------------------
+.hero{
+	background-image: url(../assets/images/cover/chromaColorsLaptop.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: $colorGrayNormal;
+    & h1{
+    	font-size: $fontHero;
+    	color: $colorWhite;
+    }
+}
+
+#landing_home_section_1{
+	background-image: url(../assets/images/cover/universityPictureLong.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: $colorWhite;
+}
+
+// Section Text_Image ------------------------------------------------------------------------------------------------
+
+#landing_home_image_redefine_1{
+	height: 500px;
+}
+
+// Section Youtube Video
+
+#landing_home_video_define_1{
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+#landing_home_section_2{
+	background-image: url(../assets/images/cover/peopleBussines.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: $colorWhite;
+}
+
+// Section Registro al Final de la Pagina

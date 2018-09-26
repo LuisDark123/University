@@ -1,0 +1,95 @@
+// Branding colors -------------------------------------------
+
+$paletteBrandOne: #ed0345;
+$paletteBrandTwo: #ff5181;
+$paletteBrandThree: #ff044a;
+$paletteBrandFour: #7f2841;
+$paletteBrandFive: #cc033b;
+
+// Basic Colors
+
+$colorWhite: #ffffff;
+$colorGrayLight: #b2bec3;
+$colorGrayNormal: #636e72;
+$colorGrayHeavy: #2d3436;
+$colorBlack: #000000;
+$colorTransparent: transparent;
+
+
+// Shadows ---------------------------------------------------
+$colorShadow: rgba(0,0,0,.7);
+
+.textShadow{
+	text-shadow: 2px 2px 2px $colorShadow;
+}
+
+// Color Clases ----------------------------------------------
+.bgBrandOne{
+	background-color: $paletteBrandOne;
+	color: $colorWhite;
+}
+
+.bgBrandTwo{
+	background-color: $paletteBrandTwo;
+	color: $colorWhite;
+}
+
+.bgBrandThree{
+	background-color: $paletteBrandThree;
+	color: $colorWhite;
+}
+
+.bgBrandFour{
+	background-color: $paletteBrandFour;
+	color: $colorWhite;
+}
+
+.bgBrandFive{
+	background-color: $paletteBrandFive;
+	color: $colorWhite;
+}
+
+.bgWhite{
+	background-color: $colorWhite;
+}
+
+.bgGrayHeavy{
+	background-color: $colorGrayHeavy;
+	color: $colorWhite;
+}
+
+.textBrandOne{
+	color: $paletteBrandOne;
+}
+
+.textBrandTwo{
+	color: $paletteBrandTwo;
+}
+
+.textBrandThree{
+	color: $paletteBrandThree;
+}
+
+.textBrandFour{
+	color: $paletteBrandFour;
+}
+
+.textBrandFive{
+	color: $paletteBrandFive;
+}
+
+.textWhite{
+	color: $colorWhite;
+}
+
+.textBlack{
+	color: $colorBlack;
+}
+
+.linkRemove{
+	text-decoration: none !important;
+}
+
+.linkWhite{
+	color: $colorWhite !important;
+}

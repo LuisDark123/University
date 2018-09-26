@@ -1,0 +1,64 @@
+// Global Classes
+.autoHeight{
+	height: 100%;
+}
+
+.height_100vh{
+	height: 100vh;
+}
+
+.height_100{
+	height: 100%;
+}
+
+.limitHeightImage{
+	height: 50% !important;
+}
+
+.limitHeightImage_100{
+	height: 100% !important;
+}
+
+.limitHeightImage_100px{
+	height: 100px !important;
+}
+
+.limitHeightImage_200px{
+	height: 200px !important;
+}
+
+.limitHeightImage_250px{
+	height: 250px !important;
+}
+
+.limitHeightImage_300px{
+	height: 300px !important;
+}
+
+.limitHeightImage_400px{
+	height: 400px !important;
+}
+
+.development{
+	background-color: red;
+}
+
+.autoSizing{
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+.p-relative{
+	position: relative;
+}
+
+.flexible-video{
+	width: 100%;
+	height: 0;
+	padding-top: 56.25%;
+}
+
+.max-height{
+	max-height: 100vh;
+}

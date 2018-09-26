@@ -1,0 +1,47 @@
+// Paddings
+
+@mixin addPadding-1{
+	padding: 5px;
+}
+
+@mixin addPadding-2{
+	padding: 10px;
+}
+
+@mixin addPadding-3{
+	padding: 15px;
+}
+
+@mixin addPadding-4{
+	padding: 20px;
+}
+
+@mixin addPadding($getPadding: $paddingDefault){
+	padding: $getPadding;
+}
+
+@mixin addPaddingLeft($getPadding: $paddingDefault){
+	padding-left: $getPadding;
+}
+
+@mixin addPaddingRight($getPadding: $paddingDefault){
+	padding-right: $getPadding;
+}
+
+@mixin addPaddingTop($getPadding: $paddingDefault){
+	padding-top: $getPadding;
+}
+
+@mixin addPaddingBottom($getPadding: $paddingDefault){
+	padding-bottom: $getPadding;
+}
+
+@mixin addPaddingAll($getPadding: $paddingDefault){
+	padding-top: $getPadding;
+	padding-right: $getPadding;
+	padding-bottom: $getPadding;
+	padding-left: $getPadding;
+}
+
+// Images and Covers
+

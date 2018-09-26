@@ -247,7 +247,23 @@
   height: 100% !important;
 }
 
+.limitHeightImage_100px {
+  height: 100px !important;
+}
+
+.limitHeightImage_200px {
+  height: 200px !important;
+}
+
+.limitHeightImage_250px {
+  height: 250px !important;
+}
+
 .limitHeightImage_300px {
+  height: 300px !important;
+}
+
+.limitHeightImage_400px {
   height: 400px !important;
 }
 

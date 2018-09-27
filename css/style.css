@@ -171,7 +171,7 @@
   color: #ffffff;
 }
 
-.btn, .btnFill, .btnEmpty {
+.btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail {
   text-shadow: none;
   text-decoration: none;
   -webkit-transition: .3s;
@@ -209,6 +209,32 @@
   transform: scale(0.94);
 }
 
+.btnFacebook {
+  background-color: #3b5998 !important;
+  color: #ffffff !important;
+  border: 0px solid transparent !important;
+  font-weight: bold;
+}
+
+.btnFacebook:hover {
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
+.btnGmail {
+  background-color: #d9534f !important;
+  color: #ffffff !important;
+  border: 0px solid transparent !important;
+  font-weight: bold;
+}
+
+.btnGmail:hover {
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
 .deleteBorders {
   border: hidden;
 }
@@ -225,6 +251,14 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.width {
+  width: auto;
+}
+
+.autoWidth {
+  width: 100%;
 }
 
 .autoHeight {

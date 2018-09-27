@@ -21,6 +21,20 @@
 	font-weight: bold;
 }
 
+@mixin buttonFacebookColor{
+	background-color: $colorFacebook !important;
+	color: $colorWhite !important;
+	border: 0px solid $colorTransparent !important;
+	font-weight: bold;
+}
+
+@mixin buttonGmailColor{
+	background-color: $colorGmail !important;
+	color: $colorWhite !important;
+	border: 0px solid $colorTransparent !important;
+	font-weight: bold;
+}
+
 %btnDefault{
 	@include buttonDefault;
 }
@@ -38,6 +52,20 @@
     &Empty{
 	    @extend %btnDefault;
 	    @include buttonEmptyColor;
+	    &:hover{
+	    	transform: scale(.94);
+	    }
+    }
+    &Facebook{
+	    @extend %btnDefault;
+	    @include buttonFacebookColor;
+	    &:hover{
+	    	transform: scale(.94);
+	    }
+    }
+    &Gmail{
+	    @extend %btnDefault;
+	    @include buttonGmailColor;
 	    &:hover{
 	    	transform: scale(.94);
 	    }

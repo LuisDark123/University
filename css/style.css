@@ -195,7 +195,8 @@
 }
 
 #landing_oferta_header_1 {
-  background-image: url(../assets/images/cover/chromaColorsLaptop.png);
+  background-image: url(../assets/images/wallpaper/class.jpg);
+  background-position: bottom;
 }
 
 .btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail, .btnWhite {

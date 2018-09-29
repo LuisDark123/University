@@ -1,6 +1,7 @@
 // Tamaños de texto ----------------------------------------
 $fontSizeMenu: 18px;
 $fontHero: 3rem;
+$fontInfoMedium: 1.3rem;
 $fontIconSmall: 15px;
 $fontIconMedium: 20px;
 $fontIconLarge: 25px;
@@ -15,4 +16,8 @@ $fontIconLarge: 25px;
 
 .fontIconLarge{
 	font-size: $fontIconLarge;
+}
+
+.fontInfoMedium{
+	font-size: $fontInfoMedium;
 }

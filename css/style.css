@@ -96,6 +96,10 @@
   font-size: 25px;
 }
 
+.fontInfoMedium {
+  font-size: 1.3rem;
+}
+
 ::-webkit-scrollbar-track {
   background-color: #080808;
 }
@@ -197,6 +201,13 @@
 #landing_oferta_header_1 {
   background-image: url(../assets/images/wallpaper/class.jpg);
   background-position: bottom;
+}
+
+#landing_oferta_section_1 {
+  background-image: url(../assets/images/wallpaper/ciudadNoche.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail, .btnWhite {

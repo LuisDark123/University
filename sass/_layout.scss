@@ -8,12 +8,6 @@
 	border-radius: 10px;
 }
 
-// Clases Globales
-.addHeight {
-  height: auto; 
-}
-
-
 // Navbar Menu --------------------------------------------------------------------------------------------------
 .navbar-menu{
 	@include addPaddingTop(20px);
@@ -47,7 +41,6 @@
 
 // Hero -----------------------------------------------------------------------------------------------------------
 .hero{
-	background-image: url(../assets/images/cover/chromaColorsLaptop.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -56,6 +49,10 @@
     	font-size: $fontHero;
     	color: $colorWhite;
     }
+}
+
+#landing_home_hero_1{
+	background-image: url(../assets/images/cover/chromaColorsLaptop.png);
 }
 
 #landing_home_section_1{
@@ -92,4 +89,8 @@
 	color: $colorWhite;
 }
 
-// Section Registro al Final de la Pagina
+// Pagina "oferta-educativa" ---------------------------------------------------------------------------------------------
+
+#landing_oferta_header_1{
+	background-image: url(../assets/images/cover/chromaColorsLaptop.png);
+}

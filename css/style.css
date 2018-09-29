@@ -37,31 +37,43 @@
 }
 
 .textBrandOne {
-  color: #ed0345;
+  color: #ed0345 !important;
 }
 
 .textBrandTwo {
-  color: #ff5181;
+  color: #ff5181 !important;
 }
 
 .textBrandThree {
-  color: #ff044a;
+  color: #ff044a !important;
 }
 
 .textBrandFour {
-  color: #7f2841;
+  color: #7f2841 !important;
 }
 
 .textBrandFive {
-  color: #cc033b;
+  color: #cc033b !important;
 }
 
 .textWhite {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .textBlack {
-  color: #000000;
+  color: #000000 !important;
+}
+
+.textGrayHeavy {
+  color: #2d3436 !important;
+}
+
+.textFacebook {
+  color: #1a538a !important;
+}
+
+.textGoogle {
+  color: #d9534f !important;
 }
 
 .linkRemove {
@@ -70,6 +82,22 @@
 
 .linkWhite {
   color: #ffffff !important;
+}
+
+.fontIconSmall {
+  font-size: 15px;
+}
+
+.fontIconMedium {
+  font-size: 20px;
+}
+
+.fontIconLarge {
+  font-size: 25px;
+}
+
+.fontInfoMedium {
+  font-size: 1.3rem;
 }
 
 ::-webkit-scrollbar-track {
@@ -83,10 +111,6 @@
 ::-webkit-scrollbar-thumb {
   background-color: #ed0345;
   border-radius: 10px;
-}
-
-.addHeight {
-  height: auto;
 }
 
 .navbar-menu {
@@ -129,7 +153,6 @@
 }
 
 .hero {
-  background-image: url(../assets/images/cover/chromaColorsLaptop.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -139,6 +162,10 @@
 .hero h1 {
   font-size: 3rem;
   color: #ffffff;
+}
+
+#landing_home_hero_1 {
+  background-image: url(../assets/images/cover/chromaColorsLaptop.png);
 }
 
 #landing_home_section_1 {
@@ -171,7 +198,30 @@
   color: #ffffff;
 }
 
-.btn, .btnFill, .btnEmpty {
+#landing_oferta_header_1 {
+  background-image: url(../assets/images/wallpaper/class.jpg);
+  background-position: bottom;
+}
+
+#landing_oferta_section_1 {
+  background-image: url(../assets/images/wallpaper/ciudadNoche.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.filaCarrera {
+  height: 200px;
+}
+
+.landing_oferta_carreras_cover {
+  background-image: url(../assets/images/cover/oficinaBlack.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail, .btnWhite {
   text-shadow: none;
   text-decoration: none;
   -webkit-transition: .3s;
@@ -209,6 +259,47 @@
   transform: scale(0.94);
 }
 
+.btnFacebook {
+  background-color: #1a538a !important;
+  color: #ffffff !important;
+  border: 0px solid transparent !important;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.btnFacebook:hover {
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
+.btnGmail {
+  background-color: #d9534f !important;
+  color: #ffffff !important;
+  border: 0px solid transparent !important;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.btnGmail:hover {
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
+.btnWhite {
+  background-color: #ffffff !important;
+  border: 0px solid transparent !important;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.btnWhite:hover {
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
 .deleteBorders {
   border: hidden;
 }
@@ -227,12 +318,41 @@
   background-color: rgba(0, 0, 0, 0.7);
 }
 
+.imgReadonly {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 2px solid #ffffff;
+}
+
+.width {
+  width: auto;
+}
+
+.addHeight {
+  height: auto;
+}
+
+.autoWidth {
+  width: 100%;
+}
+
 .autoHeight {
   height: 100%;
 }
 
 .height_100vh {
   height: 100vh;
+}
+
+.height_50vh {
+  height: 50vh;
+}
+
+.height_75vh {
+  height: 75vh;
 }
 
 .height_100 {

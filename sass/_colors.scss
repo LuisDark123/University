@@ -16,6 +16,11 @@ $colorBlack: #000000;
 $colorTransparent: transparent;
 
 
+// Social Network Brands
+
+$colorFacebook: #1a538a;
+$colorGmail: #d9534f;
+
 // Shadows ---------------------------------------------------
 $colorShadow: rgba(0,0,0,.7);
 
@@ -59,31 +64,43 @@ $colorShadow: rgba(0,0,0,.7);
 }
 
 .textBrandOne{
-	color: $paletteBrandOne;
+	color: $paletteBrandOne !important;
 }
 
 .textBrandTwo{
-	color: $paletteBrandTwo;
+	color: $paletteBrandTwo !important;
 }
 
 .textBrandThree{
-	color: $paletteBrandThree;
+	color: $paletteBrandThree !important;
 }
 
 .textBrandFour{
-	color: $paletteBrandFour;
+	color: $paletteBrandFour !important;
 }
 
 .textBrandFive{
-	color: $paletteBrandFive;
+	color: $paletteBrandFive !important;
 }
 
 .textWhite{
-	color: $colorWhite;
+	color: $colorWhite !important;
 }
 
 .textBlack{
-	color: $colorBlack;
+	color: $colorBlack !important;
+}
+
+.textGrayHeavy{
+	color: $colorGrayHeavy !important;
+}
+
+.textFacebook{
+	color: $colorFacebook !important;
+}
+
+.textGoogle{
+	color: $colorGmail !important;
 }
 
 .linkRemove{

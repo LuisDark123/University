@@ -1,10 +1,30 @@
 // Global Classes
+.width{
+	width: auto;
+}
+
+.addHeight {
+  height: auto; 
+}
+
+.autoWidth{
+	width: 100%;
+}
+
 .autoHeight{
 	height: 100%;
 }
 
 .height_100vh{
 	height: 100vh;
+}
+
+.height_50vh{
+	height: 50vh;
+}
+
+.height_75vh{
+	height: 75vh;
 }
 
 .height_100{

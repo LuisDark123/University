@@ -108,3 +108,13 @@
 	height: 100%;
 	background-color: $colorShadow;
 }
+
+// Edición de Imagenes --------------------------------------------------------------------
+
+.imgReadonly{
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	object-fit: cover;
+	border: 2px solid $colorWhite;
+}

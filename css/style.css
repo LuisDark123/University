@@ -210,6 +210,17 @@
   background-size: cover;
 }
 
+.filaCarrera {
+  height: 200px;
+}
+
+.landing_oferta_carreras_cover {
+  background-image: url(../assets/images/cover/oficinaBlack.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail, .btnWhite {
   text-shadow: none;
   text-decoration: none;
@@ -305,6 +316,15 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.imgReadonly {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  border: 2px solid #ffffff;
 }
 
 .width {

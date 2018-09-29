@@ -61,7 +61,19 @@
 }
 
 .textBlack {
-  color: #000000;
+  color: #000000 !important;
+}
+
+.textGrayHeavy {
+  color: #2d3436 !important;
+}
+
+.textFacebook {
+  color: #1a538a !important;
+}
+
+.textGoogle {
+  color: #d9534f !important;
 }
 
 .linkRemove {
@@ -70,6 +82,18 @@
 
 .linkWhite {
   color: #ffffff !important;
+}
+
+.fontIconSmall {
+  font-size: 15px;
+}
+
+.fontIconMedium {
+  font-size: 20px;
+}
+
+.fontIconLarge {
+  font-size: 25px;
 }
 
 ::-webkit-scrollbar-track {
@@ -171,7 +195,7 @@
   color: #ffffff;
 }
 
-.btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail {
+.btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail, .btnWhite {
   text-shadow: none;
   text-decoration: none;
   -webkit-transition: .3s;
@@ -210,10 +234,11 @@
 }
 
 .btnFacebook {
-  background-color: #3b5998 !important;
+  background-color: #1a538a !important;
   color: #ffffff !important;
   border: 0px solid transparent !important;
   font-weight: bold;
+  padding: 10px 15px;
 }
 
 .btnFacebook:hover {
@@ -227,9 +252,23 @@
   color: #ffffff !important;
   border: 0px solid transparent !important;
   font-weight: bold;
+  padding: 10px 15px;
 }
 
 .btnGmail:hover {
+  -webkit-transform: scale(0.94);
+  -ms-transform: scale(0.94);
+  transform: scale(0.94);
+}
+
+.btnWhite {
+  background-color: #ffffff !important;
+  border: 0px solid transparent !important;
+  font-weight: bold;
+  padding: 10px 15px;
+}
+
+.btnWhite:hover {
   -webkit-transform: scale(0.94);
   -ms-transform: scale(0.94);
   transform: scale(0.94);

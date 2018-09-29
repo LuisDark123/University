@@ -18,7 +18,7 @@ $colorTransparent: transparent;
 
 // Social Network Brands
 
-$colorFacebook: #3b5998;
+$colorFacebook: #1a538a;
 $colorGmail: #d9534f;
 
 // Shadows ---------------------------------------------------
@@ -88,7 +88,19 @@ $colorShadow: rgba(0,0,0,.7);
 }
 
 .textBlack{
-	color: $colorBlack;
+	color: $colorBlack !important;
+}
+
+.textGrayHeavy{
+	color: $colorGrayHeavy !important;
+}
+
+.textFacebook{
+	color: $colorFacebook !important;
+}
+
+.textGoogle{
+	color: $colorGmail !important;
 }
 
 .linkRemove{

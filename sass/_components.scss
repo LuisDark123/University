@@ -26,6 +26,7 @@
 	color: $colorWhite !important;
 	border: 0px solid $colorTransparent !important;
 	font-weight: bold;
+	padding: 10px 15px;
 }
 
 @mixin buttonGmailColor{
@@ -33,6 +34,14 @@
 	color: $colorWhite !important;
 	border: 0px solid $colorTransparent !important;
 	font-weight: bold;
+	padding: 10px 15px;
+}
+
+@mixin buttonWhiteColor{
+	background-color: $colorWhite !important;
+	border: 0px solid $colorTransparent !important;
+	font-weight: bold;
+	padding: 10px 15px;
 }
 
 %btnDefault{
@@ -66,6 +75,13 @@
     &Gmail{
 	    @extend %btnDefault;
 	    @include buttonGmailColor;
+	    &:hover{
+	    	transform: scale(.94);
+	    }
+    }
+    &White{
+	    @extend %btnDefault;
+	    @include buttonWhiteColor;
 	    &:hover{
 	    	transform: scale(.94);
 	    }

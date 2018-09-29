@@ -37,27 +37,27 @@
 }
 
 .textBrandOne {
-  color: #ed0345;
+  color: #ed0345 !important;
 }
 
 .textBrandTwo {
-  color: #ff5181;
+  color: #ff5181 !important;
 }
 
 .textBrandThree {
-  color: #ff044a;
+  color: #ff044a !important;
 }
 
 .textBrandFour {
-  color: #7f2841;
+  color: #7f2841 !important;
 }
 
 .textBrandFive {
-  color: #cc033b;
+  color: #cc033b !important;
 }
 
 .textWhite {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
 .textBlack {

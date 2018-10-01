@@ -93,7 +93,15 @@
 }
 
 .fontIconLarge {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.fontIconCollapse {
+  font-size: 90px;
+}
+
+.fontIconCollapseNarrow {
+  font-size: 50px;
 }
 
 .fontInfoMedium {
@@ -201,6 +209,11 @@
 #landing_oferta_header_1 {
   background-image: url(../assets/images/wallpaper/class.jpg);
   background-position: bottom;
+}
+
+#landing_oferta_header_2 {
+  background-image: url(../assets/images/wallpaper/menBussines.jpg);
+  background-position: center;
 }
 
 #landing_oferta_section_1 {
@@ -411,4 +424,8 @@
 
 .max-height {
   max-height: 100vh;
+}
+
+.removePadding {
+  padding: 0;
 }

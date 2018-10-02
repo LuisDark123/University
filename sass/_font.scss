@@ -4,7 +4,9 @@ $fontHero: 3rem;
 $fontInfoMedium: 1.3rem;
 $fontIconSmall: 15px;
 $fontIconMedium: 20px;
-$fontIconLarge: 25px;
+$fontIconLarge: 35px;
+$fontIconCollapse: 90px;
+$fontIconCollapseNarrow: 50px;
 
 .fontIconSmall{
 	font-size: $fontIconSmall;
@@ -18,6 +20,15 @@ $fontIconLarge: 25px;
 	font-size: $fontIconLarge;
 }
 
+.fontIconCollapse{
+	font-size: $fontIconCollapse;
+}
+
+.fontIconCollapseNarrow{
+	font-size: $fontIconCollapseNarrow;
+}
+
 .fontInfoMedium{
 	font-size: $fontInfoMedium;
 }
+

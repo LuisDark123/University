@@ -93,7 +93,15 @@
 }
 
 .fontIconLarge {
-  font-size: 25px;
+  font-size: 35px;
+}
+
+.fontIconCollapse {
+  font-size: 90px;
+}
+
+.fontIconCollapseNarrow {
+  font-size: 50px;
 }
 
 .fontInfoMedium {
@@ -203,6 +211,11 @@
   background-position: bottom;
 }
 
+#landing_oferta_header_2 {
+  background-image: url(../assets/images/wallpaper/menBussines.jpg);
+  background-position: center;
+}
+
 #landing_oferta_section_1 {
   background-image: url(../assets/images/wallpaper/ciudadNoche.jpg);
   background-repeat: no-repeat;
@@ -219,6 +232,30 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+}
+
+#landing_home_section_3 {
+  background-image: url(../assets/images/wallpaper/ciudadNoche.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#landing_eventos_header_1 {
+  background-image: url(../assets/images/wallpaper/students.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#carouselNews, .carousel-item {
+  max-height: 500px;
+  min-height: 400px;
+}
+
+.carousel-item img {
+  -o-object-fit: cover;
+  object-fit: cover;
 }
 
 .btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail, .btnWhite {
@@ -251,6 +288,7 @@
   color: #ed0345 !important;
   border: 1px solid #ed0345 !important;
   font-weight: bold;
+  text-decoration: none !important;
 }
 
 .btnEmpty:hover {
@@ -300,6 +338,11 @@
   transform: scale(0.94);
 }
 
+.card-darkness {
+  background: rgba(0, 0, 0, 0.9);
+  color: #ffffff;
+}
+
 .deleteBorders {
   border: hidden;
 }
@@ -316,6 +359,10 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.7);
+}
+
+.textShadow {
+  text-shadow: 3px 3px 2px #2d3436;
 }
 
 .imgReadonly {
@@ -410,4 +457,8 @@
 
 .max-height {
   max-height: 100vh;
+}
+
+.removePadding {
+  padding: 0;
 }

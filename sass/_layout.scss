@@ -96,6 +96,11 @@
 	background-position: bottom;
 }
 
+#landing_oferta_header_2{
+	background-image: url(../assets/images/wallpaper/menBussines.jpg);
+	background-position: center;
+}
+
 #landing_oferta_section_1{
 	background-image: url(../assets/images/wallpaper/ciudadNoche.jpg);
 	background-repeat: no-repeat;
@@ -112,4 +117,31 @@
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
+}
+
+// Pagina "registro.html" -------------------------------------------------------------------------------
+
+#landing_home_section_3{
+	background-image: url(../assets/images/wallpaper/ciudadNoche.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+// Pagina "eventos.html" --------------------------------------------------------------------------------
+
+#landing_eventos_header_1{
+	background-image: url(../assets/images/wallpaper/students.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#carouselNews, .carousel-item{
+	max-height: 500px;
+	min-height: 400px;
+}
+
+.carousel-item img{
+	object-fit: cover;
 }

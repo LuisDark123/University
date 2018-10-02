@@ -127,3 +127,21 @@
 	background-position: center;
 	background-size: cover;
 }
+
+// Pagina "eventos.html" --------------------------------------------------------------------------------
+
+#landing_eventos_header_1{
+	background-image: url(../assets/images/wallpaper/students.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#carouselNews, .carousel-item{
+	max-height: 500px;
+	min-height: 400px;
+}
+
+.carousel-item img{
+	object-fit: cover;
+}

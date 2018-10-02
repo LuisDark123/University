@@ -234,6 +234,13 @@
   background-size: cover;
 }
 
+#landing_home_section_3 {
+  background-image: url(../assets/images/wallpaper/ciudadNoche.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
 .btn, .btnFill, .btnEmpty, .btnFacebook, .btnGmail, .btnWhite {
   text-shadow: none;
   text-decoration: none;

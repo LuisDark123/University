@@ -274,6 +274,7 @@
   color: #ffffff;
   -webkit-box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
   box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+  text-align: center;
 }
 
 .btnFill:hover {
@@ -461,4 +462,8 @@
 
 .removePadding {
   padding: 0;
+}
+
+.removeBorderRadius {
+  border-radius: initial !important;
 }
